@@ -24,7 +24,7 @@ PetroBowl Trainer is a desktop app for PetroBowl preparation. Study on your own 
 <table>
   <tr>
     <td align="center" width="25%"><h3>5,609</h3>facts to study</td>
-    <td align="center" width="25%"><h3>FSRS</h3>modern spaced-repetition scheduling</td>
+    <td align="center" width="25%"><h3>FSRS</h3>spaced-repetition scheduler</td>
     <td align="center" width="25%"><h3>100%</h3>offline and private</td>
     <td align="center" width="25%"><h3>0</h3>accounts or sign-ups</td>
   </tr>
@@ -41,6 +41,8 @@ PetroBowl Trainer is a desktop app for PetroBowl preparation. Study on your own 
     <td width="50%" valign="top">
       <h3>📚 Study</h3>
       A daily queue of due reviews and new facts. Recall first, reveal the answer with its explanation and diagram, then rate yourself. Missed facts come back within minutes; known ones drift further apart.
+      <br><br>
+      <img alt="Study home with today's due, learning, and new counts and a Start studying button" src="docs/images/study-home.png">
     </td>
     <td width="50%" valign="top">
       <h3>🔎 Question Bank</h3>
@@ -74,10 +76,8 @@ flowchart LR
     Q["📥 Daily queue<br/>due reviews + new facts"] --> R["🧠 Recall<br/>the answer"]
     R --> S["👀 Show answer<br/>+ explanation"]
     S --> T{"Rate 1–4"}
-    T -- "Again" --> M["Back within<br/>minutes"]
-    T -- "Hard · Good · Easy" --> F["Spaced further apart<br/>days → weeks → months"]
-    M --> Q
-    F --> Q
+    T -- "Again" --> M["🔁 Back within<br/>minutes"]
+    T -- "Hard · Good · Easy" --> F["📅 Spaced further apart<br/>days → weeks → months"]
 ```
 
 The scheduler predicts when you're about to forget each fact and brings it back just before then, so a few minutes a day keeps thousands of facts within reach.
