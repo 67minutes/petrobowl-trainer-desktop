@@ -50,46 +50,12 @@
   "build": {
     "appId": "org.petrobowl.trainer.local",
     "productName": "PetroBowl Trainer",
-    "directories": {
-      "output": "release"
-    },
-    "files": [
-      "dist/**/*",
-      "package.json"
-    ],
-    "extraResources": [
-      {
-        "from": "content",
-        "to": "content",
-        "filter": [
-          "bank.json",
-          "manifest.json",
-          "media/**/*"
-        ]
-      }
-    ],
-    "asarUnpack": [
-      "node_modules/better-sqlite3/**/*"
-    ],
-    "win": {
-      "target": [
-        {
-          "target": "nsis",
-          "arch": [
-            "x64"
-          ]
-        }
-      ],
-      "icon": "build/icon.ico",
-      "signExecutable": false
-    },
-    "nsis": {
-      "oneClick": false,
-      "perMachine": false,
-      "allowToChangeInstallationDirectory": true,
-      "createDesktopShortcut": true,
-      "deleteAppDataOnUninstall": false
-    },
+    "directories": { "output": "release" },
+    "files": ["dist/**/*", "package.json"],
+    "extraResources": [{ "from": "content", "to": "content", "filter": ["bank.json", "manifest.json", "media/**/*"] }],
+    "asarUnpack": ["node_modules/better-sqlite3/**/*"],
+    "win": { "target": [{ "target": "nsis", "arch": ["x64"] }], "icon": "build/icon.ico", "signExecutable": false },
+    "nsis": { "oneClick": false, "perMachine": false, "allowToChangeInstallationDirectory": true, "createDesktopShortcut": true, "deleteAppDataOnUninstall": false },
     "artifactName": "PetroBowl-Trainer-${version}-${arch}-Setup.${ext}"
   }
 }
