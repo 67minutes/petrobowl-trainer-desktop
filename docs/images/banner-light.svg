@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif">
+  <defs>
+    <clipPath id="frame"><rect width="1200" height="360" rx="24"/></clipPath>
+    <filter id="lift" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#243b3e" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="360" fill="#f4f7f6"/>
+    <!-- sedimentary strata -->
+    <path d="M0 268 C 220 248, 420 290, 640 270 S 1000 240, 1200 262 V 360 H 0 Z" fill="#e3ece8"/>
+    <path d="M0 300 C 260 286, 460 318, 700 302 S 1020 282, 1200 296 V 360 H 0 Z" fill="#c6dfd3"/>
+    <path d="M0 330 C 240 322, 520 344, 760 332 S 1040 318, 1200 328 V 360 H 0 Z" fill="#9cc7b8"/>
+    <g fill="#087c82" opacity="0.22">
+      <circle cx="120" cy="318" r="3"/><circle cx="190" cy="326" r="2"/><circle cx="330" cy="312" r="2.5"/>
+      <circle cx="520" cy="322" r="3"/><circle cx="610" cy="314" r="2"/><circle cx="880" cy="306" r="2.5"/>
+      <circle cx="1010" cy="316" r="3"/><circle cx="1120" cy="310" r="2"/>
+    </g>
+
+    <!-- logo + title -->
+    <g transform="translate(72 56)">
+      <rect width="88" height="88" rx="18" fill="#087c82"/>
+      <text x="44" y="60" text-anchor="middle" fill="#fff" font-size="40" font-weight="700" letter-spacing="-2">PB</text>
+      <circle cx="80" cy="80" r="9" fill="#c6dfd3" stroke="#f4f7f6" stroke-width="3.5"/>
+    </g>
+    <text x="72" y="222" fill="#243b3e" font-size="54" font-weight="700" letter-spacing="-1.5">PetroBowl Trainer</text>
+    <text x="74" y="262" fill="#5b6f72" font-size="22">Offline study and team practice for PetroBowl</text>
+
+    <!-- flashcard -->
+    <g transform="translate(724 46)" filter="url(#lift)">
+      <rect width="404" height="236" rx="16" fill="#ffffff" stroke="#e1e7e7"/>
+      <text x="28" y="40" fill="#738184" font-size="12" font-weight="600" letter-spacing="2">GEOLOGY</text>
+      <text x="28" y="72" fill="#243b3e" font-size="18" font-weight="600">Which rock property is the fraction</text>
+      <text x="28" y="96" fill="#243b3e" font-size="18" font-weight="600">of bulk volume occupied by pores?</text>
+      <line x1="28" y1="116" x2="376" y2="116" stroke="#e1e7e7"/>
+      <text x="28" y="142" fill="#738184" font-size="11" font-weight="600" letter-spacing="2">ANSWER</text>
+      <text x="28" y="170" fill="#087c82" font-size="26" font-weight="700">porosity</text>
+      <g font-size="12" text-anchor="middle">
+        <rect x="28" y="186" width="80" height="32" rx="7" fill="#fbf1ee" stroke="#ecd4cc"/>
+        <text x="68" y="207" fill="#a2584a" font-weight="600">Again</text>
+        <rect x="116" y="186" width="80" height="32" rx="7" fill="#f7f5ee" stroke="#e5dfcc"/>
+        <text x="156" y="207" fill="#7d6a3c" font-weight="600">Hard</text>
+        <rect x="204" y="186" width="80" height="32" rx="7" fill="#e9f4f1" stroke="#c6dfd3"/>
+        <text x="244" y="207" fill="#087c82" font-weight="600">Good</text>
+        <rect x="292" y="186" width="84" height="32" rx="7" fill="#087c82"/>
+        <text x="334" y="207" fill="#ffffff" font-weight="600">Easy</text>
+      </g>
+    </g>
+  </g>
+</svg>
