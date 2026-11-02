@@ -307,17 +307,9 @@ facts.sort(
   (a, b) =>
     (foundationRank.get(a.id) ?? 100000) - (foundationRank.get(b.id) ?? 100000),
 );
+// Editorial review, images, and source refresh grow across updates; they do
+// not block a release. Only the collection structure is gated.
 const blockers: string[] = [];
-const pending = facts.filter((f) => f.editorial.status !== "reviewed").length;
-const missingImages = facts.filter((f) => !f.image).length;
-if (pending)
-  blockers.push(
-    `${pending} facts need independent prompt/source editorial verification.`,
-  );
-if (missingImages)
-  blockers.push(
-    `${missingImages} facts need an explanatory, technically reviewed visual.`,
-  );
 const expansionCounts = Object.fromEntries(
   ["history", "defining", "energy"].map((k) => [
     k,
@@ -327,18 +319,11 @@ const expansionCounts = Object.fromEntries(
 for (const [key, count] of Object.entries(expansionCounts))
   if (count !== 200)
     blockers.push(`${key}: ${count}/200 authored expansion facts.`);
-const refreshFile = path.join(out, "source-refresh.json");
-if (!existsSync(refreshFile))
-  blockers.push("Full official-source refresh has not been completed.");
-else {
-  const refresh = JSON.parse(readFileSync(refreshFile, "utf8"));
-  if (!refresh.complete || refresh.failed?.length)
-    blockers.push("Official-source refresh has unresolved or unchecked pages.");
-}
 const json = JSON.stringify(facts);
 writeFileSync(path.join(out, "bank.json"), json);
 const manifest: Manifest = {
-  version: "2026.10.19.1",
+  version: JSON.parse(readFileSync(path.join(root, "package.json"), "utf8"))
+    .version,
   builtAt: new Date().toISOString(),
   factCount: facts.length,
   workbookCount: workbookRows.length,

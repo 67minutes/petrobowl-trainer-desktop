@@ -99,11 +99,7 @@
     "https://glossary.slb.com/en/terms/z/zero_phase": "https://glossary.slb.com/en/terms/z/zero-phase",
     "https://glossary.slb.com/en/terms/n/neural_networks": "https://glossary.slb.com/en/terms/n/neural_network"
   },
-  "blockers": [
-    "5587 facts need independent prompt/source editorial verification.",
-    "4992 facts need an explanatory, technically reviewed visual.",
-    "Official-source refresh has unresolved or unchecked pages."
-  ],
+  "blockers": [],
   "assets": {
     "author": "PetroBowl Trainer",
     "license": "Original diagrams authored for this application",

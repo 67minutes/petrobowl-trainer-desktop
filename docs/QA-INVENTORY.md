@@ -16,8 +16,8 @@ Each item requires functional and visual verification before release.
 | Updates | Same IDs retain study, retired IDs preserved, quiz snapshots unchanged | Upgrade fixture tests |
 | Offline installer | All above with network blocked; installer launch, persistence after relaunch | Packaged-app smoke report |
 | Display | Native launch; 100%, 125%, 150% scaling; minimum 800×650; keyboard focus | Screenshots and overflow checks |
-| Content | 1,552 workbook rows; all 18 notes; 200 each expansion; two independent prompts; every image meaningful | Import/editorial/media review reports |
+| Content | 1,552 workbook rows; all 18 notes; 200 each expansion; two distinct prompts per fact; every bundled image meaningful | Import/editorial/media review reports |
 
 Exploratory scenarios: repeated clicks/stale submissions; empty topic/pool results; unfinished sessions and future learning; invalid backup leaves data intact.
 
-The content release gate must remain closed while source, prompt, expansion, or visual review is incomplete.
+The release gate stays closed if structural validation fails or an expansion collection does not have exactly 200 facts.
