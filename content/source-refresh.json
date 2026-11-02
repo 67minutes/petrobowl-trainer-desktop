@@ -1,0 +1,56 @@
+{
+  "checkedAt": "2026-10-19T07:36:06.180Z",
+  "total": 4646,
+  "checked": 4646,
+  "succeeded": 4641,
+  "failed": [
+    {
+      "url": "https://www.acs.org/education/whatischemistry/landmarks/pennsylvaniaoilindustry.html",
+      "status": 200,
+      "checkedAt": "2026-10-19T07:36:01.989Z",
+      "title": "",
+      "description": "",
+      "sha256": "01037c473ac7a06b5e986572541c34a4e81deb217dbce0a9826bbbe8b1db6f6f"
+    },
+    {
+      "url": "https://www.opec.org/brief-history.html",
+      "status": 403,
+      "checkedAt": "2026-10-19T07:36:02.018Z",
+      "title": "Attention Required! | Cloudflare",
+      "description": "",
+      "sha256": "7eb56509cd5f5c06db2f7342b9dc0c313f7f42acc42060d9a07188ebc75e259c"
+    },
+    {
+      "url": "https://laporankeberlanjutan.pertamina.com/2018/sr/page/25.html",
+      "status": 0,
+      "checkedAt": "2026-10-19T07:36:02.035Z",
+      "title": "",
+      "description": "",
+      "sha256": "",
+      "error": "TypeError: fetch failed"
+    },
+    {
+      "url": "https://www.thecanadianencyclopedia.ca/en/article/petroleum",
+      "status": 403,
+      "checkedAt": "2026-10-19T07:36:02.103Z",
+      "title": "ERROR: The request could not be satisfied",
+      "description": "",
+      "sha256": "d1895caa9fe8bb323ec9deca017aee8ff1ee291e189fe6f1e56282e0b0a6e934"
+    },
+    {
+      "url": "https://www.bp.com/en/global/corporate/who-we-are/our-history.html",
+      "status": 403,
+      "checkedAt": "2026-10-19T07:36:02.266Z",
+      "title": "Something went wrong",
+      "description": "",
+      "sha256": "4911896da8042697d2e59bcfad4fbed2b39001c975a674ca52a4bda1652d579d"
+    }
+  ],
+  "complete": false,
+  "method": "HTTP, title and description verification of existing source URLs. This does not certify a complete glossary crawl or editorial reconciliation.",
+  "pending": [
+    "Discover additions to each source collection.",
+    "Reconcile changed definitions and retired entries.",
+    "Technically review generated prompts and images."
+  ]
+}

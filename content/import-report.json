@@ -1,0 +1,112 @@
+{
+  "snapshotRecords": 5233,
+  "snapshotDistinct": 4657,
+  "workbookImported": 1552,
+  "csvAdded": 352,
+  "reviewNotes": [
+    {
+      "factId": "6c7044a7-76fd-4d78-9fb7-5f976ea1d21a",
+      "answer": "Gas",
+      "note": "Source uses a broad fuel-category definition; several examples are given rather than a uniquely diagnostic physical definition."
+    },
+    {
+      "factId": "887ccb50-f30a-40a3-a2d7-e18d1c5b8826",
+      "answer": "Boyle's Law",
+      "note": "Source labels a pressure-volume-temperature relationship as Boyle's law; rewrite specifies constant temperature to resolve the mismatch."
+    },
+    {
+      "factId": "05e93e5e-555d-43d6-b2eb-08a3a0938bec",
+      "answer": "polyalkalene glycol",
+      "note": "Source answer spelling retained: \"polyalkalene\"."
+    },
+    {
+      "factId": "b5c3f2cb-d16a-4b38-b507-c2023d9593cd",
+      "answer": "PVCs that convert sunlight directly into energy",
+      "note": "Source answer is a descriptive phrase rather than a conventional term; retained verbatim for review."
+    },
+    {
+      "factId": "8f4603c9-6247-4dde-95d4-8e4e3ff43fd2",
+      "answer": "bichromate salt",
+      "note": "Source's stated chromium valence requires technical review; omitted from the rewrite."
+    },
+    {
+      "factId": "be64c0f7-255f-48cf-9381-e2927a5c289f",
+      "answer": "continuous phase",
+      "note": "Source definition is partly self-referential after redaction; rewrite uses the stated contrast with the internal dispersed phase."
+    },
+    {
+      "factId": "7f956191-a868-40e9-86ed-9d7fee58e178",
+      "answer": "gray list",
+      "note": "Historical regulatory terminology retained; not a statement of current regulatory classification."
+    },
+    {
+      "factId": "26be0d96-4f91-48e8-9292-81bd113937d9",
+      "answer": "Crust",
+      "note": "Source also calls this the lithosphere; that equivalence needs review and is omitted from the rewrite."
+    },
+    {
+      "factId": "1304f79f-6506-4554-a4ab-e589c3892ef0",
+      "answer": "LH2",
+      "note": "Source is a cross-reference to liquefied hydrogen."
+    },
+    {
+      "factId": "97c1f6d5-5c17-4a45-a85f-19f32c61eaac",
+      "answer": "acetic acid",
+      "note": "The source's qualitative clues may also fit other organic acids; verify specificity before quiz use."
+    },
+    {
+      "factId": "82c0cb13-7111-4224-a405-0b104f256052",
+      "answer": "Solar trough or solar parabolic trough",
+      "note": "Source is a cross-reference; rewrite follows the bank's Parabolic trough entry."
+    },
+    {
+      "factId": "ea6ccb6e-afec-445a-9c40-b6eabb87252c",
+      "answer": "Lower Heating Value",
+      "note": "Source is a cross-reference to Heating Value; rewrite uses that entry's distinction between net and gross heat release."
+    },
+    {
+      "factId": "968c3f5b-2d03-409a-8833-80d25b2055cd",
+      "answer": "anode",
+      "note": "Source's general electrode-polarity statement is inconsistent across cell types; rewrite uses oxidation as the defining property."
+    },
+    {
+      "factId": "8068a426-e5c3-42e9-9fde-f4f90081e4db",
+      "answer": "baryte",
+      "note": "Source is a spelling cross-reference; this question deliberately tests that spelling variant."
+    },
+    {
+      "factId": "65260e1f-cce0-4007-bd3e-b0787b29625b",
+      "answer": "parametric",
+      "note": "Source's contrasting description of geometric surveying repeats the same definition and needs review; rewrite uses only its stated frequency-varying sense."
+    },
+    {
+      "factId": "fd9a15d1-f541-4e93-8e5f-6cde23725387",
+      "answer": "poppet valve",
+      "note": "Source gives a broad application clue without distinctive construction details; verify specificity before quiz use."
+    },
+    {
+      "factId": "b5835f62-d233-4053-9d31-457d76454046",
+      "answer": "static fluid level",
+      "note": "Answer label conflicts with the supplied definition, which describes a pumping fluid level. Rewrite follows the static label; answer set requires review before use."
+    },
+    {
+      "factId": "beef7690-34dd-44c4-933f-0e9650a5bab8",
+      "answer": "epm",
+      "note": "Source's concentration calculation and example require technical review; rewrite asks only for the abbreviation."
+    }
+  ],
+  "sourceAliases": {
+    "https://glossary.slb.com/en/terms/z/zero_phase": "https://glossary.slb.com/en/terms/z/zero-phase",
+    "https://glossary.slb.com/en/terms/n/neural_networks": "https://glossary.slb.com/en/terms/n/neural_network"
+  },
+  "blockers": [
+    "5587 facts need independent prompt/source editorial verification.",
+    "4992 facts need an explanatory, technically reviewed visual.",
+    "Official-source refresh has unresolved or unchecked pages."
+  ],
+  "assets": {
+    "author": "PetroBowl Trainer",
+    "license": "Original diagrams authored for this application",
+    "sourceImagesCopied": 0
+  }
+}

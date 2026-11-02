@@ -1,0 +1,108 @@
+{
+  "6c7044a7-76fd-4d78-9fb7-5f976ea1d21a": {
+    "learn": "In the DOE hydrogen glossary's fuel terminology, which broad category includes natural fuel gas, vapor-phase LPG, and LPG–air mixtures?",
+    "quiz": "What one-word fuel category groups natural gas and vapor-phase liquefied petroleum gas in the DOE hydrogen glossary?",
+    "explanation": "The entry uses gas as a broad fuel category. This wording asks about that glossary usage, rather than claiming that the examples uniquely define a physical state.",
+    "editorial": { "status": "reviewed", "notes": ["Resolved broad-category ambiguity by explicitly identifying the DOE glossary's fuel-category usage."] }
+  },
+  "887ccb50-f30a-40a3-a2d7-e18d1c5b8826": {
+    "quiz": "At fixed temperature and fixed gas quantity, pressure is inversely proportional to volume. Name this law.",
+    "explanation": "Boyle's law states that PV is constant for a fixed amount of ideal gas at constant temperature. PV/T being constant when temperature varies belongs to the combined gas law, not Boyle's law alone.",
+    "editorial": { "status": "reviewed", "notes": ["Corrected the source's conflation of Boyle's law with the combined gas law. Both prompts explicitly hold temperature constant."] }
+  },
+  "05e93e5e-555d-43d6-b2eb-08a3a0938bec": {
+    "answer": "polyalkylene glycol", "acceptedAnswers": ["polyalkylene glycol", "PAG", "polyalkalene glycol"],
+    "quiz": "PEG and PPG belong to which family of alkylene-oxide polymers used as shale inhibitors?",
+    "explanation": "Polyalkylene glycols include polyethylene glycol and polypropylene glycol. PAG is the standard family abbreviation. The legacy source spelling 'polyalkalene glycol' is retained only as an accepted source variant.",
+    "editorial": { "status": "reviewed", "notes": ["Standardized alkylene spelling; preserved the historical source spelling as an alias."] }
+  },
+  "b5c3f2cb-d16a-4b38-b507-c2023d9593cd": {
+    "answer": "photovoltaic cells", "acceptedAnswers": ["photovoltaic cells", "PV cells", "solar photovoltaic cells", "solar cells"],
+    "learn": "Which solid-state semiconductor devices convert sunlight directly into electricity by the photovoltaic effect?",
+    "quiz": "Name the solar cells that produce electrical power directly from incident light, without a thermal turbine cycle.",
+    "explanation": "Photovoltaic cells convert light into electrical energy. The old descriptive answer and its time-dependent adoption claims were replaced with standard device terminology.",
+    "editorial": { "status": "reviewed", "notes": ["Replaced a descriptive answer with photovoltaic cells. Removed outdated market-adoption claims."] }
+  },
+  "8f4603c9-6247-4dde-95d4-8e4e3ff43fd2": {
+    "answer": "dichromate salt", "acceptedAnswers": ["dichromate salt", "bichromate salt", "dichromate"],
+    "learn": "What salt class contains the Cr₂O₇²⁻ ion, as in potassium K₂Cr₂O₇, and was historically called bichromate?",
+    "quiz": "Potassium K₂Cr₂O₇ contains which chromium oxyanion salt class, also called bichromate in older terminology?",
+    "explanation": "Dichromate is Cr₂O₇²⁻. Oxygen at −2 contributes −14; a net charge of −2 requires the two chromium atoms to total +12, so each chromium is +6, not +7.",
+    "editorial": { "status": "reviewed", "notes": ["Corrected chromium oxidation state to +6 by charge balance and made the answer diagnostic using the ion formula."] }
+  },
+  "be64c0f7-255f-48cf-9381-e2927a5c289f": {
+    "quiz": "In an emulsion, which phase forms the connected external medium around the dispersed droplets?",
+    "explanation": "The continuous phase is the external connected medium. The internal or dispersed phase consists of droplets within it.",
+    "editorial": { "status": "reviewed", "notes": ["Removed a self-referential definition and stated the external-versus-dispersed phase relationship."] }
+  },
+  "7f956191-a868-40e9-86ed-9d7fee58e178": {
+    "acceptedAnswers": ["gray list", "grey list"],
+    "learn": "In the legacy OSPAR/PARCOM color-list terminology described by the SLB glossary, which list grouped substances requiring strong regulatory control?",
+    "quiz": "Under the historical North Sea color-list scheme in the source, substances requiring strong regulatory control were assigned to which list?",
+    "explanation": "The historical glossary calls this the gray or grey list. This card tests legacy terminology and does not describe current chemical approvals or current OSPAR compliance requirements.",
+    "editorial": { "status": "reviewed", "notes": ["Explicitly restricted both prompts and the explanation to historical terminology."] }
+  },
+  "26be0d96-4f91-48e8-9292-81bd113937d9": {
+    "quiz": "What compositional layer lies outside Earth's mantle and forms its outermost rocky shell?",
+    "explanation": "The crust is Earth's outermost compositional rock layer. The lithosphere is a mechanical layer comprising the crust and the rigid uppermost mantle, so the two are not synonyms.",
+    "editorial": { "status": "reviewed", "notes": ["Removed the incorrect crust/lithosphere equivalence."] }
+  },
+  "1304f79f-6506-4554-a4ab-e589c3892ef0": {
+    "acceptedAnswers": ["LH2", "LH₂"],
+    "quiz": "Which short notation, beginning with L, is used for liquid hydrogen?",
+    "explanation": "LH₂ denotes liquid hydrogen. The L identifies the liquid state; H₂ is molecular hydrogen.",
+    "editorial": { "status": "reviewed", "notes": ["Expanded the cross-reference into an explicit abbreviation question."] }
+  },
+  "97c1f6d5-5c17-4a45-a85f-19f32c61eaac": {
+    "learn": "Which organic acid with formula CH₃COOH is used in some well-stimulation treatments and is less corrosive than hydrochloric acid?",
+    "quiz": "Name the CH₃COOH organic acid used in oilfield stimulation, including treatments where slower acid action is desired.",
+    "explanation": "Acetic acid is CH₃COOH. The molecular formula distinguishes it from other organic acids, such as formic acid, that can share the broad stimulation-use clues.",
+    "editorial": { "status": "reviewed", "notes": ["Added the molecular formula to distinguish acetic acid from other organic stimulation acids."] }
+  },
+  "82c0cb13-7111-4224-a405-0b104f256052": {
+    "answer": "parabolic trough", "acceptedAnswers": ["parabolic trough", "solar trough", "solar parabolic trough"],
+    "quiz": "Which line-focus solar collector uses a parabolic reflecting channel and a receiver tube along its focal line?",
+    "explanation": "A parabolic trough reflects sunlight onto a receiver along a focal line. It is a concentrating solar-thermal collector, distinct from a photovoltaic cell.",
+    "editorial": { "status": "reviewed", "notes": ["Resolved the cross-reference and separated accepted answer aliases."] }
+  },
+  "ea6ccb6e-afec-445a-9c40-b6eabb87252c": {
+    "acceptedAnswers": ["lower heating value", "LHV", "net calorific value", "net heating value"],
+    "quiz": "Which heating-value convention leaves product water as vapor and omits its latent heat of condensation?",
+    "explanation": "Lower heating value excludes heat recoverable by condensing water vapor in combustion products. Higher heating value includes that condensation contribution under its reference conditions.",
+    "editorial": { "status": "reviewed", "notes": ["Expanded the source cross-reference using the lower-versus-higher heating-value distinction."] }
+  },
+  "968c3f5b-2d03-409a-8833-80d25b2055cd": {
+    "quiz": "Name the electrode defined by oxidation, regardless of whether the cell is galvanic or electrolytic.",
+    "explanation": "Oxidation occurs at the anode. In corrosion, anodic metal dissolution releases electrons. Electrode polarity depends on the cell type, so positive charge is not a universal definition of an anode.",
+    "editorial": { "status": "reviewed", "notes": ["Used oxidation as the defining property and removed the universal positive-polarity claim."] }
+  },
+  "8068a426-e5c3-42e9-9fde-f4f90081e4db": {
+    "acceptedAnswers": ["baryte"],
+    "quiz": "Give the y-containing alternative spelling of barite, the barium sulfate mineral used as a drilling-fluid weighting material.",
+    "explanation": "Baryte is an alternative spelling of barite, BaSO₄. This card explicitly tests that spelling, rather than pretending it describes a separate mineral.",
+    "editorial": { "status": "reviewed", "notes": ["Kept a spelling-specific fact and made that constraint explicit in both prompts."] }
+  },
+  "65260e1f-cce0-4007-bd3e-b0787b29625b": {
+    "quiz": "In the glossary's electromagnetic-survey terminology, varying frequency at a fixed source–receiver geometry is described by which adjective?",
+    "explanation": "The source calls the fixed-geometry, variable-frequency approach parametric. This card tests that stated sense only and does not repeat the source's inconsistent contrasting definition of geometric surveying.",
+    "editorial": { "status": "reviewed", "notes": ["Restricted the question to the stated electromagnetic sense and removed the erroneous contrast."] }
+  },
+  "fd9a15d1-f541-4e93-8e5f-6cde23725387": {
+    "learn": "Which valve type uses a plug or disc that lifts from a seat, rather than a swinging flap, and may serve as a pressure-control check valve?",
+    "quiz": "What valve construction has a seating element that moves away from its seat to open, commonly under spring or pressure action?",
+    "explanation": "A poppet valve opens by moving its seating element away from a seat. The construction clue distinguishes it from a swing check valve; the old application-only question did not.",
+    "editorial": { "status": "reviewed", "notes": ["Added a diagnostic construction clue rather than relying only on kill-line applications."] }
+  },
+  "b5835f62-d233-4053-9d31-457d76454046": {
+    "acceptedAnswers": ["static fluid level"],
+    "quiz": "After a pumping well has been shut down and its liquid level has equilibrated, what is that resting fluid level called?",
+    "explanation": "Static fluid level is the equilibrated level when the well is not pumping. Dynamic or pumping fluid level describes the level under producing conditions. They are not interchangeable accepted answers.",
+    "editorial": { "status": "reviewed", "notes": ["Kept the static sense, corrected the explanation, and removed dynamic fluid level from accepted answers."] }
+  },
+  "beef7690-34dd-44c4-933f-0e9650a5bab8": {
+    "acceptedAnswers": ["epm", "EPM"],
+    "quiz": "Give the legacy concentration abbreviation formed from 'equivalents per million'.",
+    "explanation": "Epm abbreviates equivalents per million. This card tests the abbreviation only. The source's calcium arithmetic was omitted because ionic equivalents require equivalent weight, not division of a mass-based ppm concentration by valence alone.",
+    "editorial": { "status": "reviewed", "notes": ["Removed the incorrect concentration example and restricted the fact to the abbreviation."] }
+  }
+}

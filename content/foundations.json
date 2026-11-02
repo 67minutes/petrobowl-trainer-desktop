@@ -1,0 +1,26 @@
+{
+  "7cdbe8bb-8efa-4541-9835-170efd083c70": {
+    "learn": "Which rock property is the fraction of its bulk volume occupied by pore space?",
+    "quiz": "Divide a rock sample's void volume by its total bulk volume. What property have you calculated?",
+    "explanation": "Porosity is pore volume divided by bulk rock volume, often expressed as a percentage. It measures storage space. Permeability measures the ability to transmit fluid, so high porosity alone does not guarantee good flow.",
+    "editorial": { "status": "reviewed", "notes": ["Authored independent prompts for the pore-volume fraction and distinguished it from permeability."] }
+  },
+  "3f2273ab-851f-49cd-a34e-6ca68e8ef6c2": {
+    "learn": "Which rock property describes its ability to transmit fluid through connected pores under a pressure gradient?",
+    "quiz": "Two rocks can have the same porosity but different fluid-flow capacity. Which property describes that capacity and is commonly reported in millidarcies?",
+    "explanation": "Permeability describes a porous material's ability to transmit fluid. Darcy's law relates flow rate to permeability, flow area, viscosity, pressure gradient, and path length. It is not simply the pore-volume fraction or a travel time.",
+    "editorial": { "status": "reviewed", "notes": ["Corrected the source's overly simple travel-time description and authored two rock-flow-specific prompts."] }
+  },
+  "bffc9261-334b-41e2-bd3e-a2effaa981f6": {
+    "learn": "Which fold type has its oldest rocks in the core and, when upright, forms an upward-convex arch?",
+    "quiz": "In an upright fold, the beds arch upward and become older toward the centre. Name the fold.",
+    "explanation": "An anticline has older rocks toward its core. An upright anticline is arch shaped. Its geometry may support a petroleum trap when reservoir rock, seal, closure, charge, and timing are also suitable.",
+    "editorial": { "status": "reviewed", "notes": ["Specified upright geometry and age relationship; did not equate every anticline with a proven petroleum trap."] }
+  },
+  "8bc240e2-c01b-4e7e-83cc-df48faf4c628": {
+    "learn": "Which fold type has its youngest rocks in the core and, when upright, forms a trough?",
+    "quiz": "Beds in an upright fold curve downward and become younger toward the centre. What is this fold called?",
+    "explanation": "A syncline has younger rocks toward its core. When upright, its geometry is trough shaped. Age relationships distinguish anticlines and synclines even where subsequent deformation complicates their present orientation.",
+    "editorial": { "status": "reviewed", "notes": ["Used age relationships and qualified the upright geometry rather than treating shape alone as sufficient."] }
+  }
+}

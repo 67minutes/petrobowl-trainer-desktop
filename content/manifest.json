@@ -1,0 +1,18 @@
+{
+  "version": "2026.10.19.1",
+  "builtAt": "2026-10-19T07:52:35.361Z",
+  "factCount": 5609,
+  "workbookCount": 1552,
+  "expansion": {
+    "history": 200,
+    "defining": 200,
+    "energy": 200
+  },
+  "releaseReady": false,
+  "blockers": [
+    "5587 facts need independent prompt/source editorial verification.",
+    "4992 facts need an explanatory, technically reviewed visual.",
+    "Official-source refresh has unresolved or unchecked pages."
+  ],
+  "bankSha256": "197e73d93871ba1fbf62dd236a63dd9c8121550f339955b189b2ef9c184e5f51"
+}

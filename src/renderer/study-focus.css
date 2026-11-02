@@ -1,0 +1,14 @@
+/* Keep the recall task and rating controls close together during a session. */
+.study-focus .workspace{padding-top:24px}
+.study-focus .page-heading{margin-bottom:20px}
+.study-focus .page-heading .eyebrow,.study-focus .page-heading p,.study-focus .study-stats{display:none}
+.study-focus .page-heading h1{font-size:25px}
+.study-focus .flashcard{padding:20px 25px}
+.study-focus .card-toolbar{padding-bottom:13px;margin-bottom:17px}
+.study-focus .question{font-size:20px;line-height:1.5}
+.study-focus .answer{padding-top:18px;margin-top:18px}
+.study-focus .answer figure img{max-height:210px}
+.study-focus .rating-row{position:sticky;bottom:0;z-index:5;background:white;padding:12px 0 5px;box-shadow:0 -10px 12px white;margin-top:12px}
+.study-focus .rating{padding:10px 4px}
+.study-focus .rating kbd{margin-top:6px}
+@media(max-height:750px){.study-start{min-height:270px;padding:24px 25px}.study-start .study-symbol{display:none}.study-start>.eyebrow{margin-bottom:10px}.study-start h2{font-size:24px}.study-start>p{margin:12px auto 18px}.study-stats{padding:16px 0 20px;margin-bottom:18px}.page-heading{margin-bottom:24px}.workspace{padding-top:25px}}

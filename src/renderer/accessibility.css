@@ -1,0 +1,78 @@
+/* Secondary copy remains readable at normal Windows display scaling. */
+:root {
+  --muted: #61766d;
+}
+.quiet,
+.page-heading p,
+.study-stats span,
+.context-block p,
+.coverage-label span,
+.answer .explanation,
+.accepted,
+.answer figcaption,
+.sources,
+.media-pending,
+.list-header,
+.history-row > div span,
+.history-result,
+.quizmaster-note,
+.scoreboard th,
+.rank,
+.simple-table th,
+.simple-table td,
+.report-top p,
+.report-accuracy > span,
+.topic-table > div,
+.topic-table small,
+.guide-grid p,
+.demo-card p,
+.settings-section > div > p,
+.settings-form small,
+.local-status span:not(.status-dot) {
+  color: #61776c;
+}
+.eyebrow,
+.topic-line,
+.state-label,
+.nav-caption,
+.context-title,
+.guide-number {
+  color: #57786a;
+}
+.context-block p,
+.study-tip p {
+  color: #61776c;
+  font-size: 12px;
+}
+.study-stats span {
+  font-size: 11px;
+}
+.guide-grid p,
+.answer .explanation {
+  font-size: 13px;
+}
+.below-card > span,
+footer {
+  color: #6c8073;
+}
+.rating .interval,
+.rating kbd {
+  color: #647b6c;
+}
+.rating > span:last-of-type {
+  font-size: 9px;
+}
+.simple-table th,
+.scoreboard th {
+  font-size: 10px;
+}
+.bank-question small {
+  color: #5c7e69;
+  font-size: 10px;
+}
+.nav-item {
+  color: #526c60;
+}
+.figure-button {
+  background: white;
+}

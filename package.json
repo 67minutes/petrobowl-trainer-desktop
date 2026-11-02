@@ -1,0 +1,60 @@
+{
+  "name": "petrobowl-trainer-desktop",
+  "version": "1.0.0-preview.1",
+  "private": true,
+  "type": "module",
+  "description": "Offline PetroBowl study and quiz practice",
+  "author": "PetroBowl Trainer",
+  "main": "dist/main/main.cjs",
+  "scripts": {
+    "dev": "npm run build && electron .",
+    "start": "electron .",
+    "build": "tsc --noEmit && tsx scripts/build.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "node scripts/run-tests.cjs",
+    "content:build": "tsx scripts/build-bank.ts",
+    "content:validate": "tsx scripts/validate-bank.ts",
+    "content:release": "tsx scripts/validate-bank.ts --release",
+    "content:refresh": "tsx scripts/refresh-sources.ts",
+    "pack": "npm run build && electron-builder --dir",
+    "installer:preview": "npm run build && electron-builder --win nsis",
+    "installer": "npm run content:release && npm run build && electron-builder --win nsis",
+    "postinstall": "electron-builder install-app-deps"
+  },
+  "dependencies": {
+    "better-sqlite3": "13.0.3",
+    "clsx": "2.1.1",
+    "lucide-react": "1.17.0",
+    "react": "19.2.7",
+    "react-dom": "19.2.7",
+    "ts-fsrs": "5.4.2",
+    "zod": "4.4.3"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/node": "^22.19.0",
+    "@types/react": "^19.2.3",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.0",
+    "electron": "44.9.0",
+    "electron-builder": "^26.9.0",
+    "esbuild": "^0.27.0",
+    "playwright": "^1.60.0",
+    "read-excel-file": "9.0.10",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3",
+    "vite": "8.3.4",
+    "vitest": "^4.0.15"
+  },
+  "build": {
+    "appId": "org.petrobowl.trainer.local",
+    "productName": "PetroBowl Trainer",
+    "directories": { "output": "release" },
+    "files": ["dist/**/*", "package.json"],
+    "extraResources": [{ "from": "content", "to": "content", "filter": ["bank.json", "manifest.json", "media/**/*"] }],
+    "asarUnpack": ["node_modules/better-sqlite3/**/*"],
+    "win": { "target": [{ "target": "nsis", "arch": ["x64"] }], "icon": "build/icon.ico", "signExecutable": false },
+    "nsis": { "oneClick": false, "perMachine": false, "allowToChangeInstallationDirectory": true, "createDesktopShortcut": true, "deleteAppDataOnUninstall": false },
+    "artifactName": "PetroBowl-Trainer-${version}-${arch}-Setup.${ext}"
+  }
+}
